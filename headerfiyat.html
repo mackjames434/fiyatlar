@@ -1,7 +1,8 @@
-<!-- TradingView Widget BEGIN -->
+<head>
+  
+
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
-  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/" rel="noopener" target="_blank"><span class="blue-text">Markets</span></a> by TradingView</div>
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
   {
   "symbols": [
@@ -32,6 +33,12 @@
   "displayMode": "regular",
   "locale": "en"
 }
+body.tv-display-mode-regular {
+    pointer-events: none !important;
+},
+a.label-cViDSmuy.label-wAvQLR3C.end-cViDSmuy.top-cViDSmuy.snap-cViDSmuy.js-copyright-label {
+    display: none !important;
+}
   </script>
 </div>
-<!-- TradingView Widget END -->
+</head>
